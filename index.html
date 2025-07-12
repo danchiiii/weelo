@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>I miss you, weelo :<</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-repeat: no-repeat;
+      background-size: cover; 
+      background-position: center;
+      text-align: center;
+      padding-top: 40%;
+      font-family: 'Lucida Bright', serif;
+      color: #f7c8c8; 
+      margin: 0;
+    }
+
+    #audio-container {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(100, 100, 100, 0.3);
+      padding: 10px 16px;
+      border-radius: 12px;
+      color: #ff8c00;
+      font-family: 'Arial', sans-serif;
+      font-size: 14px;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 0 8px rgba(100, 50, 0, 0.4);
+    }
+
+    audio {
+      width: 130px;
+      height: 24px;
+      margin-top: 4px;
+      filter: brightness(0.9) contrast(1.1);
+    }
+
+    .text-box {
+      display: inline-block;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 10px 20px;
+      border-radius: 6px;
+    }
+
+    h1, h2 {
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body background="C:\Users\User\Documents\winter\DINOSAUR\42adbc2dd8cdc09d1f5c1acbf9b53c86.jpg">
+
+  <div id="audio-container">
+    click me for better experience :3<br>
+    <audio controls>
+      <source src="C:\Users\User\Documents\winter\DINOSAUR\初音ミクすごいラララーな感じMiku HatsuneFeeling so la-la-la.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="text-box">
+    <h1>I like you, my weelo !!</h1>
+    <h2>from: your danchi (it's you and me on the background)</h2>
+  </div>
+
+  <script>
+    const isWeelo = confirm("are you weelo?");
+    if (!isWeelo) {
+      alert("get out, it's not for you.");
+      document.body.innerHTML = ""; 
+    }
+  </script>
+</body>
+</html>
